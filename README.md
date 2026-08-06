@@ -249,6 +249,17 @@ In Arena, choose **Engines > Install New Engine**, select
 `Hash=256` MB for the tested configuration. Available UCI options are `Hash`,
 `Threads`, `Move Overhead`, `EvalFile`, `Use NNUE`, and `Use Policy`.
 
+## Acknowledgments
+
+**OpenAI Codex** contributed substantially to this engine's playing strength,
+working on search-parameter tuning, evaluation and network-architecture
+iteration, and performance optimisation across the version history documented
+above. Much of the measured Elo gain from 3.0 onward came out of that work.
+
+Authorship, design direction, and every gating decision — which candidate
+became champion, and on what evidence — remain those of Madushan Dissanayake,
+who is named as the engine's sole author accordingly.
+
 ## License
 
 GNU GPL v3 or later. See `LICENSE`.
