@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 // NARC Next — an original UCI chess engine
-// Copyright (C) 2026 Madushan Dissanayake (authors: Madushan Dissanayake and OpenAI Codex)
+// Copyright (C) 2026 Madushan Dissanayake
 //
 // This program is free software: you can redistribute it and/or modify it under
 // the terms of the GNU General Public License as published by the Free Software
@@ -269,7 +269,7 @@ static void uciLoop() {
 
         if (token == "uci") {
             std::cout << "id name NARC Next 4.1" << (nnue::loaded ? " NNUE" : "") << "\n"
-                      << "id author Madushan Dissanayake and OpenAI Codex\n"
+                      << "id author Madushan Dissanayake\n"
                       << "option name Hash type spin default 128 min 1 max 4096\n"
                       << "option name Threads type spin default 1 min 1 max 256\n"
                       << "option name Move Overhead type spin default 30 min 0 max 1000\n"

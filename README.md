@@ -1,8 +1,19 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="NARC Next" width="280">
+
 # NARC Next
 
+**An original, from-scratch C++20 UCI chess engine**
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/Madushan996/NARC-NEXT)](https://github.com/Madushan996/NARC-NEXT/releases)
+
+</div>
+
 NARC Next is an original, from-scratch C++20 UCI chess engine by Madushan
-Dissanayake and OpenAI Codex. It is the successor to NARC Engine and is intended
-for Arena and other UCI-compatible chess GUIs.
+Dissanayake. It is the successor to NARC Engine and is intended for Arena and
+other UCI-compatible chess GUIs.
 
 ## Originality and provenance
 

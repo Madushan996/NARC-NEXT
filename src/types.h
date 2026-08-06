@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-// NARC Engine — Copyright (C) 2026 Madushan Dissanayake (authors: Madushan
-// Dissanayake and Claude AI). Licensed under the GNU GPL v3 or later; see LICENSE.
+// NARC Engine — Copyright (C) 2026 Madushan Dissanayake.
+// Licensed under the GNU GPL v3 or later; see LICENSE.
 //
 // NARC Engine — basic types, bitboards, attack tables, zobrist
 #pragma once
