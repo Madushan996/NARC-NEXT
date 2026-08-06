@@ -1,0 +1,7 @@
+dist/
+build/
+*.o
+*.log
+tests/diagnostic_games.pgn
+__pycache__/
+.pytest_cache/

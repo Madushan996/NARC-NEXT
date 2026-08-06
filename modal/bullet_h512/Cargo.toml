@@ -1,0 +1,8 @@
+[package]
+name = "narc-bullet-h512"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bullet_lib = { path = "/opt/bullet/crates/bullet_lib", features = ["cuda"] }
+bulletformat = "1.8.0"
