@@ -158,6 +158,23 @@ The engine has no opening book, does not learn between games, and writes no
 persistent state. `EvalFile` is the only way to load an external network; the
 built-in one is used otherwise, so play is deterministic by default.
 
+## Testing
+
+Most recent external match — a 132-game round robin at 1 min + 1 sec:
+
+| Opponent | Result | Score |
+|---|---|---|
+| Stockfish 8 x64 | 54.0 – 46.0 | 54.0% (100 games) |
+| Stockfish 7 x64 | 17.5 – 14.5 | 54.7% (32 games) |
+
+At this sample size 54/100 is roughly one standard error above equality, so the
+result indicates approximate parity with Stockfish 8 **at this time control**
+rather than a decisive margin, and no performance rating is derived from it.
+The engine has not been tested at long time controls or under CCRL conditions.
+
+Per-version match results and the full development history are in
+[CHANGELOG.md](CHANGELOG.md).
+
 ## Build from source
 
 The networks are embedded in `src/nnue_net.h` and `src/policy_net.h`, which are

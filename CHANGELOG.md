@@ -144,6 +144,34 @@ accumulation ledger is now +101/150 Elo. Stockfish 8 gating remains deferred
 until approximately +150 Elo. **The final requirement to beat Stockfish 8 and
 verify roughly 3500 Elo remains unproven.**
 
+## External match — 4.1 at 1 min + 1 sec
+
+A 132-game round robin against Stockfish 8 and Stockfish 7:
+
+| Opponent | Result | Score |
+|---|---|---|
+| Stockfish 8 x64 | 54.0 – 46.0 | 54.0% (100 games) |
+| Stockfish 7 x64 | 17.5 – 14.5 | 54.7% (32 games) |
+| **Combined** | **71.5 / 132** | **54.2%** |
+
+This is the first external test in which NARC Next has scored above 50% against
+Stockfish 8. It supersedes the closing statement of the 4.1 entry above, which
+was written before this match; version 3.7 had measured roughly −123 Elo against
+Stockfish 8 at 0.25s+0.10s.
+
+Interpreted conservatively: 54/100 is approximately one standard error above
+equality, so the sample is consistent with anything from a small deficit to a
+moderate edge. It indicates **approximate parity with Stockfish 8 at this time
+control**, not a decisive result. No performance rating is derived from it — the
+opponents' published ratings were measured on different hardware at a much
+longer time control, so importing them would not produce a meaningful figure.
+The 32-game Stockfish 7 match is too small to carry weight on its own.
+
+Time management has been tuned at fast controls (0.25s+0.10s, 100 ms/move and
+20 ms/move) across many gated versions, so 1 min + 1 sec is close to the regime
+it was optimised in. No testing has been done at long time controls or under
+CCRL conditions.
+
 Version 3.3 upgrades the evaluator to squared-clipped NNUE activation and was
 trained on 8,462,039 combined Stockfish-18-labelled positions. It preserves
 the incremental H256 transformer and compact phase/pawn output while adding
