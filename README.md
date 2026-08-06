@@ -8,6 +8,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/Madushan996/NARC-NEXT)](https://github.com/Madushan996/NARC-NEXT/releases)
+[![Downloads](https://img.shields.io/github/downloads/Madushan996/NARC-NEXT/total)](https://github.com/Madushan996/NARC-NEXT/releases)
 
 </div>
 
